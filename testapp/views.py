@@ -23,8 +23,8 @@ def TestView(request):
 def papago(text):
     url = 'https://openapi.naver.com/v1/papago/n2mt'
     headers = {
-        'X-Naver-Client-Id': ,
-        'X-Naver-Client-Secret':
+        'X-Naver-Client-Id':'brfL28fIiSDPXYs0mias' ,
+        'X-Naver-Client-Secret':'QFImDfwoR0'
     }
     data = {
         'source': 'ko',
